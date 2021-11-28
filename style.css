@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+.wrapper {
+    width: 900px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.tina::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gulnaz::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: lightseagreen;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.wall__one {
+    width: 300px;
+    height: 500px;
+    background-color: pink;
+}
